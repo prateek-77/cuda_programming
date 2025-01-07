@@ -1,0 +1,15 @@
+# Ignore all files without extensions
+*
+
+# Allow directories to be tracked
+!*/
+
+# Allow files with extensions to be tracked
+!*.*
+
+# Ignore nvcc output files
+*.o
+*.ptx
+*.cubin
+*.exe
+*.out
